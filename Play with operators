@@ -1,0 +1,11 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main(p,r,t):
+    si = (p*r*t)/100
+    print(int(si),end='')
+
+p = float(input())
+r = int(input())
+t = int(input())
+main(p,r,t)
