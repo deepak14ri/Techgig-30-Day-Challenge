@@ -1,0 +1,17 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    string = input("")
+    c1 = 0
+    c2 = 0
+    for i in range(len(string)):
+        if string[i].isupper():
+            c1 = c1+1
+        elif string[i].islower():
+            c2 = c2+1
+    print(c1)
+    print(c2,end='')
+
+main()
+
