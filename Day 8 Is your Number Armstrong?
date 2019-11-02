@@ -1,0 +1,22 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    num = int(input())
+    temp = num
+    arr = []
+    sum = 0
+    while int(num) > 0:
+        arr.append(int(num % 10))
+        num/=10
+    n = len(arr)
+    
+    for i in range(n):
+        sum += arr[i]**n
+        
+    if sum == temp:
+        print('True',end='')
+    else :
+        print('False',end='')
+
+main()
