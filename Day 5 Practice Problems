@@ -1,0 +1,11 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    num = int(input())
+    fact=1
+    for i in range(1,num+1):
+        fact = i*fact
+    
+    print(fact,end='')
+main()
