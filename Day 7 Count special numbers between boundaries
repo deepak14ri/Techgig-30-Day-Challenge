@@ -1,0 +1,17 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    l = int(input())
+    r = int(input())
+    count = 0
+    for i in range(l,r+1):
+        if i>1:
+            for j in range(2,i):
+                if i%j==0:
+                    break
+            else:
+                count += 1
+    print(count,end='')
+main()
+
