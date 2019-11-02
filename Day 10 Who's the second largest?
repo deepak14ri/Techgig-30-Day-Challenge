@@ -1,0 +1,10 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    n = int(input())
+    arr = list(map(int,input().split()))
+    s = sorted(arr)
+    print(s[-2],end='')
+main()
+
