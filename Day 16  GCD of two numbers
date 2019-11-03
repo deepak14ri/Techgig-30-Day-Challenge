@@ -1,0 +1,11 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    x, y = map(int,input().split())
+    while y:
+        x,y = y , x%y 
+        hcf = x
+    print(hcf,end='')
+main()
+
