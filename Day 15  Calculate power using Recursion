@@ -1,0 +1,9 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    n , m = map(int,input().split())
+    print(pow(n,m),end='')
+
+main()
+
