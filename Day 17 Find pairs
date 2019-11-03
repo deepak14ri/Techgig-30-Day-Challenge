@@ -1,0 +1,18 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    n = int(input())
+    arr = list(map(int,input().split()))
+    add = int(input())
+    flag=0
+    for i in range(n-1):
+        if add == arr[i]+arr[i+1]:
+            flag = 1
+    if flag == 1:
+        print('True',end='')
+    else:
+        print('False',end='')
+        
+main()
+
