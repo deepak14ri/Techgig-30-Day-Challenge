@@ -1,0 +1,12 @@
+def main():
+    n = int(input())
+    arr = []
+    for i in range(n):
+        arr.append(input())
+    arr = sorted(arr)
+    for i in range(len(arr)):
+        if arr[i]==arr[-1]:
+            print(arr[i],end='')
+        else:
+            print(arr[i])
+main()
