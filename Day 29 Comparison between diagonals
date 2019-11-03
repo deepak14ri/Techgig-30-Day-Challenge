@@ -1,0 +1,22 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    row, col = map(int,input().split())
+    mat = []
+    for i in range(row):
+        mat.append(list(map(int,input().split())))
+    d1,d2,forward,backward = 0,0,0,col-1
+    for i in range(row):
+        d1 += mat[i][forward]
+        forward += 1
+        d2 += mat[i][backward]
+        backward -= 1
+    if d1>d2 and d1-d2!=4:
+        print('Diagonal 1',end='')
+    elif d2>d1 and d1-d2!=4:
+        print('Diagonal 2',end='')
+    else:
+        print('Equal',end='')
+main()
+
