@@ -1,0 +1,27 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    row, col = map(int,input().split())
+    arr=[]
+    for i in range(row):
+        arr.append(list(map(int, input().split())))
+    arr3 = []
+    
+    for i in range(col):
+        new = []
+        for j in range(row):
+            new.append(arr[j][i])
+        arr3.append(new)
+   
+    t = len(arr3)
+    for i in range(t):
+        for j in range(t):
+            if arr3[i][j]!=arr3[i][t-1]:
+                print(arr3[i][j],end=' ')
+            elif i+j==2*i:
+                print(arr3[i][j],end='')
+            else:
+                print(arr3[i][j])
+main()
+
