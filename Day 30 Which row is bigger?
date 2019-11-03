@@ -1,0 +1,16 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+
+def main():
+    row, col = map(int,input().split())
+    mat = []
+    max=0
+    for i in range(row):
+        arr = list(map(int,input().split()))
+        if sum(arr)>max:
+            max = sum(arr)
+            rowid = i+1
+    print("Row",rowid,end='')
+    
+main()
