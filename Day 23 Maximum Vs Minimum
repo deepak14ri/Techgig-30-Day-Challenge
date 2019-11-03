@@ -1,0 +1,15 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+    n = int(input())
+    arr = list(map(int,input().split()))
+    minn = arr[0]
+    maxx = arr[0]
+    for i in arr:
+        if i > maxx:
+            maxx = i
+        elif i < minn:
+            minn = i
+    print(minn*maxx,end='')
+main()
