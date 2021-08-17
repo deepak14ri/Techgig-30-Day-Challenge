@@ -29,3 +29,16 @@ main()
 
 '''You get for 60/100 but its standard solution you can also checkout 2x2, 4x4 and 
 many more this is actually case error of this ques'''
+
+"U can get 100/100 for this solution"
+def matrices():
+    row, col = list(map(int,input().split()))
+    arr=[]
+    for i in range(row):
+        arr.append(list(map(int, input().split())))
+    return arr
+X=matrices()
+Y=matrices()
+result = [[X[i][j] + Y[i][j]  for j in range (len(X[0]))] for i in range(len(X))]
+for r in result:
+    print(*r)
