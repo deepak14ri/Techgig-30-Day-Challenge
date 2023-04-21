@@ -1,5 +1,5 @@
 # Leave a note for queries:
- <strong>Email ID:</strong>deepak14ri@outlook.com <br>
+ <strong>Email ID:</strong> deepak14ri@outlook.com <br>
  <strong>Techgig Profile: </strong>https://www.techgig.com/deepakchaudhari16
 
 # Techgig-30-Day-Challenge
