@@ -1,4 +1,4 @@
-# Leave a note for any help:
+# Leave a note for queries:
 deepak14ri@outlook.com
 
 # Techgig-30-Day-Challenge
