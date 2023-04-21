@@ -1,6 +1,6 @@
 # Leave a note for queries:
  <strong>Email ID:</strong><br>
- deepak14ri@outlook.com
+ deepak14ri@outlook.com <br>
  <strong>Techgig Profile: </strong><br>
  https://www.techgig.com/deepakchaudhari16
 
