@@ -2,7 +2,7 @@
  <strong>Email ID:</strong> deepak14ri@outlook.com <br>
  <strong>Techgig Profile: </strong>https://www.techgig.com/deepakchaudhari16
 
-# Techgig-30-Day-Challenge
+# Introduction
 Hello there! Here is 30-Day  coding Challenge Using Python 3 on Techgig and also as well as Hackerrank which really important for those guys who just started coding. I tried to explain basic coding knowledge for competative conding on any coding challenge platforms.
 
 
